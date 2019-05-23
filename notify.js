@@ -17,8 +17,8 @@ function sendText(number, message) {
 }
 
 function sendEmail(address, message) {
-    let sender = 'ENTER EMAIL HERE';
-    let password = 'ENTER PASSWORD HERE';
+    let sender = '5x55method@gmail.com';
+    let password = 'Password@123';
     let transporter = nodemailer.createTransport({
         host: 'gmail.com',
         port: 587,
